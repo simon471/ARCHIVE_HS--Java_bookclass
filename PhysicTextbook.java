@@ -22,7 +22,7 @@ public class PhysicTextbook extends Textbook{
   }
   
   public static void main(String[] ar){
-    PhysicTextbook a = new PhysicTextbook("physic", "English", 100, 1032, Textbook.Sub.SCIENCE,1==1, "f=ma", 1==1);
+    PhysicTextbook a = new PhysicTextbook("physic", "English", 100, 1032, Textbook.Sub.SCIENCE, true, "f=ma", true);
     a.intro();
 }
 }
