@@ -9,7 +9,7 @@ public class Textbook extends Book{
     this.sub = sub;
     this.ex = ex;
   }
-  public Sub getSub(){return this.sub;}
+  public Sub hasSub(){return this.sub;}
   public String getEx(){
     if(this.ex){
       return "it have exercise.";}
